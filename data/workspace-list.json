@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "author": "seunghyun",
+  "email": "limseunghyun90@gamil.com",
+  "data": [
+    {
+      "id": "1",
+      "workspaceThumbnail": "/portfolio/alleyway/alleyway-1.jpg",
+      "workspaceName": "앨리웨이"
+    },
+    {
+      "id": "2",
+      "workspaceThumbnail": "/portfolio/alleyway/alleyway-1.jpg",
+      "workspaceName": "코앤드"
+    },
+    {
+      "id": "3",
+      "workspaceThumbnail": "/portfolio/alleyway/alleyway-1.jpg",
+      "workspaceName": "슬링스톤"
+    }
+  ]
+}
