@@ -1,0 +1,140 @@
+.about {
+  padding-bottom: 80px;
+  @media (max-width: $device-breakpoint) {
+    padding-bottom: 60px;
+  }
+}
+
+.about__banner {
+  position: relative;
+  background: url('/img/about/about-banner.jpg') no-repeat 0;
+  background-size: cover;
+  padding-bottom: 20%;
+  @media (max-width: $device-breakpoint) {
+    padding-bottom: 40%;
+  }
+  margin-bottom: 80px;
+  .bg-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.about__body {
+  padding-bottom: 80px;
+  .about__me__text {
+    line-height: 28px;
+    @media (max-width: $device-breakpoint) {
+      margin-bottom: 30px;
+    }
+  }
+  .about__benefit {
+    p {
+      word-break: keep-all;
+    }
+    span {
+      font-weight: $font-semi-bold;
+    }
+  }
+}
+
+.about__list {
+  li {
+    line-height: 28px;
+    span {
+      font-weight: $font-medium;
+      margin-right: 6px;
+    }
+  }
+}
+
+.about__goal {
+  text-align:center;
+  margin-bottom:60px;
+  p {
+    font-size:26px;
+    font-weight:$font-medium;
+    margin-bottom:12px;
+  }
+  span {
+    font-size:36px;
+    font-weight:$font-bold;
+  }
+}
+
+.about__intro {
+  h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .row {
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @media (max-width: $device-breakpoint) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.about__education {
+  margin-bottom: 30px;
+}
+
+.about__career {
+  @media (max-width: $device-breakpoint) {
+    margin-bottom: 30px;
+  }
+}
+
+.about__period-list {
+  @media (max-width: $device-breakpoint) {
+    margin-bottom: 10px;
+  }
+}
+
+.about__period {
+  @media (max-width: $device-breakpoint) {
+    display: block;
+  }
+}
+
+.about__client {
+  h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  ul {
+    overflow:hidden;
+    margin:0 (-$gutter * 2);
+    li {
+      float: left;
+      width: 25%;
+      padding: $gutter * 2;
+      @media (max-width: $device-breakpoint) {
+        width: 50%;
+        padding-top: 0;
+        padding-bottom: $gutter * 2;
+        padding-left: $gutter * 2;
+        padding-right: $gutter;
+        &:nth-child(2n) {
+          padding-left: $gutter;
+          padding-right: $gutter * 2;
+        }
+      }
+      figure {
+        padding-bottom: 100%;
+        background: #efefef url('/img/about/client01.png') no-repeat center;
+        background-size: 80px !important;
+        @media (max-width: $device-breakpoint) {
+          background-size: 80px !important;
+        }
+      }
+    }
+  }
+}

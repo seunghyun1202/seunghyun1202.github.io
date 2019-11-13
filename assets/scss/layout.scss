@@ -1,0 +1,102 @@
+/*
+  Paul SCSS Layout Class
+  Author: SeungHyun Lim
+*/
+
+// 01. column 12 layout
+// 02. Page Title
+.row {
+  margin: 0 (-$gutter * 2);
+  @media (max-width: $device-breakpoint) {
+    margin: 0 (-$gutter);
+  }
+
+  &:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+  padding: 0 ($gutter * 2);
+  @media (max-width: $device-breakpoint) {
+    width: 100%;
+    padding: 0 ($gutter);
+  }
+}
+
+.col-12 {
+  width: 100%;
+  padding: 0 ($gutter * 2);
+  @media (max-width: $device-breakpoint) {
+    width: 100%;
+    padding: 0 ($gutter);
+  }
+}
+
+// 02. column 12 layout display table / table-cell layout
+.row-table {
+  display: table;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+  @media (max-width: $device-breakpoint) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.col-table {
+  display: table-cell;
+  padding: 0 $gutter;
+  vertical-align: top;
+}
+
+.col-table-3 {
+  width: 17.777777%;
+}
+
+.col-table-4 {
+  width: 25%;
+}
+
+.col-table-5 {
+  width: 33.333333%;
+}
+
+.col-table-6 {
+  width: 50%;
+}
+
+.col-table-7 {
+  width: 66.666666%;
+}
+
+.col-table-8 {
+  width: 75%;
+}
+
+// 02. Page Title
+.page-title {
+  text-align: center;
+  margin-bottom: 120px;
+  @media (max-width: $device-breakpoint) {
+    margin-bottom: 60px;
+  }
+  h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    @media (max-width: $device-breakpoint) {
+      font-size: 32px;
+    }
+  }
+  span {
+    font-size: 14px;
+    color: #777;
+    @media (max-width: $device-breakpoint) {
+      font-size: 12px;
+    }
+  }
+}

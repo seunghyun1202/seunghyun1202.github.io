@@ -1,0 +1,104 @@
+.service {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  @media (max-width: $device-breakpoint) {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+}
+
+.service__thumbnail {
+  padding-bottom: 70%;
+  @media (max-width: $device-breakpoint) {
+    margin-bottom: 26px;
+  }
+  &.service__thumbnail01 {
+    background: url(/img/service/service01.jpg) no-repeat 0;
+    background-size: cover;
+  }
+  &.service__thumbnail02 {
+    background: url(/img/service/service02.jpg) no-repeat 0;
+    background-size: cover;
+  }
+  &.service__thumbnail03 {
+    background: url(/img/service/service03.jpg) no-repeat 0;
+    background-size: cover;
+  }
+  &.service__thumbnail04 {
+    background: url(/img/service/service04.jpg) no-repeat 0;
+    background-size: cover;
+  }
+  &.service__thumbnail05 {
+    background: url(/img/service/service05.jpg) no-repeat 0;
+    background-size: cover;
+  }
+  &.service__thumbnail06 {
+    background: url(/img/service/service06.jpg) no-repeat 0;
+    background-size: cover;
+  }
+  &.service__thumbnail07 {
+    background: url(/img/service/service07.jpg) no-repeat 0;
+    background-size: cover;
+  }
+}
+
+.service__process {
+  li {
+    margin-bottom: 20px;
+    @media (max-width: $device-breakpoint) {
+      margin-bottom: 60px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .service__contents {
+      padding: 50px 40px 0 20px;
+      @media (max-width: $device-breakpoint) {
+        padding: 0;
+      }
+      .service__header {
+        position: relative;
+        font-size: 28px;
+        margin-bottom: 16px;
+        padding-left: 80px;
+        @media (max-width: $device-breakpoint) {
+          font-size: 20px;
+          margin-top: 0;
+          margin-bottom: 16px;
+        }
+        .number {
+          position: absolute;
+          top: -10px;
+          left: 0;
+          font-size: 60px;
+        }
+        .title {
+          font-size: 24px;
+          margin-bottom: 6px;
+        }
+        .hash {
+          font-size: 14px;
+          vertical-align: top;
+          text-transform: uppercase;
+          color: #777;
+          font-weight: $font-regular;
+        }
+      }
+
+      .service__wording {
+        font-size: 16px;
+        line-height: 22px;
+        word-break: keep-all;
+        @media (max-width: $device-breakpoint) {
+          word-break: break-all;
+        }
+      }
+    }
+  }
+  .flex-reverse {
+    @media (max-width: $device-breakpoint) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}

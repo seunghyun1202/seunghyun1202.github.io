@@ -1,0 +1,63 @@
+{
+  "version": "0.0.1",
+  "author": "seunghyun",
+  "email": "limseunghyun90@gamil.com",
+  "data": [
+    {
+      "id": "1",
+      "previewImg": "/portfolio/alleyway/alleyway-1.jpg",
+      "summarySlogan": "도심 속 새로운 공간을<br>디지털에서 표현하다.",
+      "summaryText": "2019 Alleyway Branding",
+      "summaryWork": "Publishing & Front-end",
+      "useTech": {
+        "html": "HTML5",
+        "css": "SCSS",
+        "js": "JS",
+        "vue": "Vue"
+      },
+      "descText": "프로젝트의 초기 단계에서부터 웹사이트 개발의 방향성을 오프라인이 가진 공간성이 온라인에서도 자연스럽게 이어지도록 만드는 것에 두었습니다. '우리 동네 문화골목'을 추구하는 앨리웨이와 어울리는 언어와 이미지에 대한 이해를 바탕으로 웹사이트에 사용할 스타일 가이드를 만들고, 이를 통해 고객들이 기존의 쇼핑몰과는 완전히 구별되는 느낌을 받을 수 있도록 하는데 신경을 쏟았습니다.",
+      "techText": "방문하는 고객의 입장에서 핵심 정보와 부가정보를 구분하고, 이러한 중요도에 따라 노출 수준을 달리하여 화면에 메뉴 구성을 단순화하였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/alleyway/alleyway-4.jpg",
+        "img02": "/portfolio/alleyway/alleyway-5.jpg",
+        "img03": "/portfolio/alleyway/alleyway-6.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "YES!<br>YOUR IDEA<br>CAN BE REAL",
+      "summaryText": "2019 Conde Brand renewal",
+      "summaryWork": "Publishing & Front-end",
+      "useTech": {
+        "html": "HTML5",
+        "css": "SCSS",
+        "js": "JS",
+        "vue": "Vue"
+      },
+      "descText": "리뉴얼 초기 단계에서부터 방향성을 정적인 느낌보다 역동적이고 재미있는 웹사이트를 만들고자 하였습니다. 국내에 애니메이션으로 이루어진 웹사이트가 거의 없는만큼 애니메이션 중심으로 제작하는데 초점을 맞추었습니다.",
+      "techText": "애니메이션을 깨지지 않고 자연스럽게 구현하였으며, 롱스크롤 기법을 활용하여 사용자가 흥미를 느낄 요소를 추가하였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/conde/conde-1.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "YES!<br>YOUR IDEA<br>CAN BE REAL",
+      "summaryText": "2019 Conde Brand renewal",
+      "summaryWork": "Publishing & Front-end",
+      "useTech": {
+        "html": "HTML5",
+        "css": "SCSS",
+        "js": "JS",
+        "vue": "Vue"
+      },
+      "descText": "리뉴얼 초기 단계에서부터 방향성을 정적인 느낌보다 역동적이고 재미있는 웹사이트를 만들고자 하였습니다. 국내에 애니메이션으로 이루어진 웹사이트가 거의 없는만큼 애니메이션 중심으로 제작하는데 초점을 맞추었습니다.",
+      "techText": "애니메이션을 깨지지 않고 자연스럽게 구현하였으며, 롱스크롤 기법을 활용하여 사용자가 흥미를 느낄 요소를 추가하였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/conde/conde-1.jpg"
+      }
+    }
+  ]
+}

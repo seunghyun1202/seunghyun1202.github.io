@@ -1,0 +1,61 @@
+/*
+  Paul Common Stylesheet
+  Author: SeungHyun Lim
+*/
+
+*, *:before, *:after {
+  box-sizing:border-box;
+  margin:0;
+}
+
+body {
+  font-family:$font-family;
+  font-weight:$font-regular;
+  // IE 스크롤바 없애기
+  -ms-overflow-style: none;
+  // Chrome 스크롤바 부유 객체
+  overflow: overlay;
+  &::-webkit-scrollbar {
+    position:absolute;
+    width: 8px;
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    opacity: .4;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+img {
+  vertical-align:bottom;
+}
+
+button {
+  border:none;
+  background:none;
+  padding:0;
+  cursor:pointer;
+  outline:0;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+a {
+  color:#000;
+  text-decoration:none;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .25s;
+}
+
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
