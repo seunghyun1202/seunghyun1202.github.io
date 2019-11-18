@@ -105,36 +105,15 @@
       <section class="about__client">
         <h3>Client</h3>
         <ul>
-          <li>
-            <figure></figure>
+          <template v-for="(logo, index) in clientList">
+          <li :key="index">
+            <figure
+              :style="{ backgroundImage: 'url(' + logo + ')' }"
+            >
+              <span class="a11y-hidden">로고 이미지 {{index + 1}}</span>
+            </figure>
           </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
-          <li>
-            <figure></figure>
-          </li>
+          </template>
         </ul>
       </section>
     </div>
@@ -145,6 +124,20 @@
   export default {
     data () {
       return {
+        clientList: [
+          '/img/client/logo01.png',
+          '/img/client/logo02.png',
+          '/img/client/logo03.png',
+          '/img/client/logo04.png',
+          '/img/client/logo05.png',
+          '/img/client/logo06.png',
+          '/img/client/logo07.png',
+          '/img/client/logo08.png',
+          '/img/client/logo09.png',
+          '/img/client/logo10.png',
+          '/img/client/logo11.png',
+          '/img/client/logo12.png'
+        ],
         careerList: [
           {
             'period': '2018.03 ~ 2019.04',
