@@ -12,41 +12,18 @@
         <div class="about__intro">
           <div class="row">
             <div class="col-6">
-              <h3>About Me</h3>
-              <p class="about__me__text">
-                농구에 푹 빠져 사는 프런트엔드 개발자입니다.
-                웹 개발의 전문가로 일하는만큼 프로의식을 가지고 임하며,
-                다른 사람이 생각하지 못한 부분까지 잡을 수 있도록 끊임없이 생각하며 개발합니다.
-                뷰로 개발하는 것에 관심이 많고 상황에 따라 다양한 방법으로 개발할 줄 압니다.
-                디자인에도 기웃거리며 보기 좋은 웹사이트를 만들기 위해 노력합니다.
-              </p>
-            </div>
-            <div class="col-6">
-              <h3>Benefit</h3>
-              <ul class="about__list about__benefit">
-                <li>
-                  <p class="about__period-list">
-                    <span class="about__period">첫 번째,</span>
-                    일정관리가 철저하며 진행상황을 공유해드립니다.
-                  </p>
-                </li>
-                <li>
-                  <p class="about__period-list">
-                    <span class="about__period">두 번째,</span>
-                    요청사항을 이행함과 별개로 더 좋은 방향을 찾아 제안드립니다.
-                  </p>
-                </li>
-                <li>
-                  <p class="about__period-list">
-                    <span class="about__period">세 번째,</span>
-                    발생 가능성이 있는 문제는 숨기지 않고 공유합니다.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6">
+              <!-- 어바웃 -->
+              <div class="about__me">
+                <h3>About Me</h3>
+                <p class="about__me__text">
+                  농구에 푹 빠져 사는 프런트엔드 개발자입니다.
+                  웹 개발의 전문가로 일하는만큼 프로의식을 가지고 임하며,
+                  다른 사람이 생각하지 못한 부분까지 잡을 수 있도록 끊임없이 생각하며 개발합니다.
+                  뷰로 개발하는 것에 관심이 많고 상황에 따라 다양한 방법으로 개발할 줄 압니다.
+                  디자인에도 기웃거리며 보기 좋은 웹사이트를 만들기 위해 노력합니다.
+                </p>
+              </div>
+
               <!-- 학력 -->
               <div class="about__education">
                 <h3>Education</h3>
@@ -82,8 +59,33 @@
               </div>
             </div>
             <div class="col-6">
+              <!-- 베네핏 -->
+              <div class="about__benefit">
+                <h3>Benefit</h3>
+                <ul class="about__list about__list__benefit">
+                  <li>
+                    <p class="about__period-list">
+                      <span class="about__period">첫 번째,</span>
+                      일정관리가 철저하며 진행상황을 공유해드립니다.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="about__period-list">
+                      <span class="about__period">두 번째,</span>
+                      요청사항을 이행함과 별개로 더 좋은 방향을 찾아 제안드립니다.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="about__period-list">
+                      <span class="about__period">세 번째,</span>
+                      발생 가능성이 있는 문제는 숨기지 않고 공유합니다.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
               <!-- 프로젝트 -->
-              <div class="">
+              <div class="about__project">
                 <h3>External Project</h3>
                 <div class="">
                   <ul class="about__list">
@@ -98,6 +100,12 @@
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+            </div>
+            <div class="col-6">
             </div>
           </div>
         </div>
