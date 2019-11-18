@@ -21,6 +21,7 @@
                 <ul class="ul-inline workspace__skill">
                   <li v-for="(list, index) in workData.useTech" :key="index">{{list}}</li>
                 </ul>
+                <a class="workspace__link" target="_blank" :href="workData.link">사이트 바로가기</a>
               </div>
             </div>
             <div class="col-table col-table-7">

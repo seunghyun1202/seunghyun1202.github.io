@@ -41,8 +41,8 @@ module.exports = {
   },
   // API 주소 전역 선언
   env: {
-    // API_SERVER_ADDRESS: 'http://172.30.1.54:3333' // 테스트
-    API_SERVER_ADDRESS: 'https://seunghyun1202.github.io' // 테스트
+    API_SERVER_ADDRESS: 'http://localhost:3000' // 테스트
+    // API_SERVER_ADDRESS: 'https://seunghyun1202.github.io' // 테스트
   },
   /*
   ** Customize the progress bar color
