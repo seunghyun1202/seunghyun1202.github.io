@@ -1,13 +1,5 @@
 <template>
   <div class="workspace">
-    <section class="workspace__header">
-      <div
-        class="workspace__preview"
-        :style="{ backgroundImage: 'url(' + workData.previewImg + ')' }"
-        role="banner"
-        aria-label="포트폴리오 배너"
-      ></div>
-    </section>
     <section class="workspace__body">
       <div class="container">
         <!-- 프로젝트 요약 -->
