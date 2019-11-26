@@ -59,7 +59,8 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/conde/conde-1.jpg"
+        "img01": "/portfolio/slingstone/slingstone01.jpg",
+        "img02": "/portfolio/slingstone/slingstone02.jpg"
       }
     }
   ]

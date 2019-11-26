@@ -5,17 +5,17 @@
   "data": [
     {
       "id": "1",
-      "workspaceThumbnail": "/portfolio/alleyway/alleyway-1.jpg",
+      "workspaceThumbnail": "/portfolio/alleyway/thumbnail-alleyway.jpg",
       "workspaceName": "앨리웨이"
     },
     {
       "id": "2",
-      "workspaceThumbnail": "/portfolio/alleyway/alleyway-1.jpg",
+      "workspaceThumbnail": "/portfolio/conde/thumbnail-conde.jpg",
       "workspaceName": "코앤드"
     },
     {
       "id": "3",
-      "workspaceThumbnail": "/portfolio/alleyway/alleyway-1.jpg",
+      "workspaceThumbnail": "/portfolio/slingstone/thumbnail-slingstone.jpg",
       "workspaceName": "슬링스톤"
     }
   ]

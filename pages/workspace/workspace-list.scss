@@ -24,7 +24,8 @@
 
   .list__thumbnail {
     padding-bottom: 100%;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
   }
 
   .list__summary {
