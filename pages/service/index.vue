@@ -76,6 +76,8 @@
               <p class="service__wording">
                 해당 정보들을 취합하여 시각적으로 확인하실 수 있도록 임시 콘텐츠를 만듭니다. 이 단계에서 수정 및 보완이 이루어집니다.
               </p>
+
+              <nuxt-link class="service__btn" to="/service/guide">Style Guide</nuxt-link>
             </div>
           </div>
           <div class="col-6">

@@ -102,3 +102,30 @@
     }
   }
 }
+
+.service__btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 0 40px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Guide */
+.guide {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  @media (max-width: $device-breakpoint) {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  figure {
+    img {
+      width: 100%;
+      vertical-align: bottom;
+    }
+  }
+}
