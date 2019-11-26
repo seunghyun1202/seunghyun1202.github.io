@@ -7,9 +7,9 @@
       "id": "1",
       "link": "https://alleyway.co.kr/",
       "previewImg": "/portfolio/alleyway/alleyway-1.jpg",
-      "summarySlogan": "도심 속 새로운 공간을<br>디지털에서 표현하다.",
+      "summarySlogan": "도심 속 새로운 공간을<br>디지털에서 표현하다.</span>",
+      "ko": true,
       "summaryText": "2019 Alleyway Branding",
-      "summaryWork": "Publishing & Front-end",
       "useTech": {
         "html": "HTML5",
         "css": "SCSS",
@@ -30,7 +30,6 @@
       "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "YES!<br>YOUR IDEA<br>CAN BE REAL",
       "summaryText": "2019 Conde Brand renewal",
-      "summaryWork": "Publishing & Front-end",
       "useTech": {
         "html": "HTML5",
         "css": "SCSS",
@@ -47,9 +46,8 @@
       "id": "3",
       "link": "http://www.sling-stone.com/",
       "previewImg": "/portfolio/conde/conde-banner.jpg",
-      "summarySlogan": "SEE THE<br>UNSEEN",
+      "summarySlogan": "SEE THE UNSEEN",
       "summaryText": "2019 SlingStone Brand",
-      "summaryWork": "Publishing & Front-end",
       "useTech": {
         "html": "HTML5",
         "css": "SCSS",
