@@ -48,9 +48,13 @@
       font-size: 30px;
     }
   }
+  .summary__text {
+    display: block;
+    margin-top: 16px;
+  }
 
   .summary__info {
-    margin-top: 40px;
+    margin-top: 36px;
     @media (max-width: $device-breakpoint) {
       margin-top: 20px;
     }
@@ -102,8 +106,8 @@
 
 .workspace__link {
   display: inline-block;
-  margin-top: 20px;
-  font-size: 18px;
+  //margin-top: 34px;
+  font-size: 16px;
   font-weight: $font-bold;
   cursor: pointer;
   text-decoration: underline;
@@ -127,11 +131,16 @@
   line-height: 26px;
 }
 
-.workspace__skill {
-  margin-top: 12px;
+.workspace__korean {
+  line-height: 47px;
+}
 
+.workspace__skill {
+  margin-top: 6px;
   li {
     margin-right: 10px;
+    font-weight: $font-regular;
+    color: #000;
   }
 }
 

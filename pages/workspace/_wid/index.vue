@@ -8,19 +8,14 @@
             <div class="col-table col-table-5">
               <h1
                 class="summary__slogan"
+                :class="{workspace__korean: workData.ko}"
                 v-html="workData.summarySlogan"
               ></h1>
-
+              <p class="summary__text" v-html="workData.summaryText"></p>
+              <ul class="ul-inline workspace__skill">
+                <li v-for="(list, index) in workData.useTech" :key="index">{{list}}</li>
+              </ul>
               <div class="summary__info">
-                <p class="summary__text-group">
-                  <span class="summary__text" v-html="workData.summaryText"></span>
-                  <span class="summary__bar">|</span>
-                  <span class="summary__work" v-html="workData.summaryWork"></span>
-                </p>
-                <!-- Todo: 각각 아이콘 넣어보기 -->
-                <ul class="ul-inline workspace__skill">
-                  <li v-for="(list, index) in workData.useTech" :key="index">{{list}}</li>
-                </ul>
                 <a class="workspace__link" target="_blank" :href="workData.link">사이트 바로가기</a>
               </div>
             </div>
