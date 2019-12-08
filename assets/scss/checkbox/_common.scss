@@ -50,6 +50,18 @@
   }
 }
 
+.magic-checkbox.is-error + label {
+  &:before {
+    border-color: #ff4500;
+  }
+  &:hover {
+    &:before {
+      animation-name: inherit;
+      border-color: #ff4500;
+    }
+  }
+}
+
 .magic-radio[disabled] + label,
 .magic-checkbox[disabled] + label {
   cursor: not-allowed;

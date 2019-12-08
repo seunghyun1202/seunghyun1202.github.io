@@ -220,9 +220,20 @@
     font-weight: $font-semi-bold;
     margin-bottom: 32px;
   }
+  .contact__form-group {
+    padding-bottom: 26px;
+    .error-msg {
+      position: absolute;
+      font-size: 12px;
+      color: #ff4500;
+      padding-top: 5px;
+    }
+    .error-agree {
+      padding-top: 8px;
+    }
+  }
   .form-group {
     position: relative;
-    margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #e2e2e2;
     &:before {
@@ -236,6 +247,12 @@
     }
     &.focus {
       &:before {
+        animation: lineDrawing 0.35s ease-in forwards;
+      }
+    }
+    &.is-error {
+      &:before {
+        background: #ff4500;
         animation: lineDrawing 0.35s ease-in forwards;
       }
     }

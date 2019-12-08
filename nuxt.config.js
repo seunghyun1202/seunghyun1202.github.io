@@ -41,8 +41,8 @@ module.exports = {
   },
   // API 주소 전역 선언
   env: {
-    API_SERVER_ADDRESS: 'http://localhost:3000' // 테스트
-    // API_SERVER_ADDRESS: 'https://seunghyun1202.github.io' // 테스트
+    // API_SERVER_ADDRESS: 'http://localhost:3000' // 테스트
+    API_SERVER_ADDRESS: 'https://seunghyun1202.github.io' // 배포
   },
   /*
   ** Customize the progress bar color
@@ -62,5 +62,6 @@ module.exports = {
   },
   plugins: [
     {src: '~/plugins/vue-awesome-swiper.js', ssr: false},
+    {src: '~/plugins/vee-validate.js', ssr: false},
   ]
 }

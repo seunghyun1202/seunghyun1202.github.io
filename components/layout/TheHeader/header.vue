@@ -70,88 +70,131 @@
             <div class="contact__relative">
               <h2 class="contact__title">문의하기</h2>
               <no-ssr>
-                <form>
-                <div class="form-group" :class="{focus: isFilterFocus}">
-                  <label for="contactFilter">구분</label>
-                  <select
-                    id="contactFilter"
-                    v-model="contactFilter"
-                    @focus="isFilterFocus = !isFilterFocus"
-                    @blur="isFilterFocus = !isFilterFocus"
+                <ValidationObserver v-slot="{ handleSubmit }">
+                  <!-- 문의하기 폼 -->
+                  <form @submit.prevent="handleSubmit(onSubmit)"
+                        ref="inquiryForm"
                   >
-                    <option title="문의 유형" value="" disabled>문의 유형을 선택하세요.</option>
-                    <option title="홈페이지">홈페이지</option>
-                    <option title="쇼핑몰">쇼핑몰</option>
-                    <option title="기타">기타</option>
-                  </select>
-                </div>
-                <div class="form-group" :class="{focus: isNameFocus}">
-                  <label for="contactName">성명</label>
-                  <input
-                    type="text"
-                    id="contactName"
-                    title="성명"
-                    placeholder="성명"
-                    v-model="contactName"
-                    @focus="isNameFocus = !isNameFocus"
-                    @blur="isNameFocus = !isNameFocus"
-                    required
-                  >
-                </div>
-                <div class="form-group" :class="{focus: isPhoneFocus}">
-                  <label for="contactPhone">연락처</label>
-                  <input
-                    type="text"
-                    id="contactPhone"
-                    title="연락처"
-                    placeholder="연락처"
-                    v-model="contactPhone"
-                    @focus="isPhoneFocus = !isPhoneFocus"
-                    @blur="isPhoneFocus = !isPhoneFocus"
-                    required>
-                </div>
-                <div class="form-group" :class="{focus: isEmailFocus}">
-                  <label for="contactEmail">이메일</label>
-                  <input
-                    type="email"
-                    id="contactEmail"
-                    title="이메일"
-                    placeholder="이메일"
-                    v-model="contactEmail"
-                    @focus="isEmailFocus = !isEmailFocus"
-                    @blur="isEmailFocus = !isEmailFocus"
-                    required>
-                </div>
-                <div class="form-group" :class="{focus: isContentsFocus}">
-                  <label for="contactContents">내용</label>
-                  <textarea
-                    title="내용"
-                    id="contactContents"
-                    placeholder="프로젝트 관련 내용 및 문의사항을 남겨주시면 최대한 빠른 시일 내에 연락드리겠습니다."
-                    v-model="contactContents"
-                    @focus="isContentsFocus = !isContentsFocus"
-                    @blur="isContentsFocus = !isContentsFocus"
-                    required></textarea>
-                </div>
-                <div class="form-agree">
-                  <input
-                    type="checkbox"
-                    class="magic-checkbox"
-                    id="contactAgree"
-                    title="개인정보취급방침 동의 여부"
-                    v-model="contactAgree"
-                    required
-                  >
-                  <label for="contactAgree">
-                    개인정보취급방침에 동의합니다.
-                  </label>
-                  <span @click="showModal = true">내용보기</span>
-                </div>
-              </form>
+                    <div class="contact__form-group">
+                      <!-- 문의 유형 -->
+                      <ValidationProvider rules="required|oneOf:홈페이지,쇼핑몰,기타" v-slot="{ errors }">
+                        <div class="form-group" :class="{focus: isFilterFocus, 'is-error': errors[0]}">
+                          <label for="contactFilter">구분</label>
+                          <select
+                            id="contactFilter"
+                            v-model="contactFilter"
+                            @focus="isFilterFocus = !isFilterFocus"
+                            @blur="isFilterFocus = !isFilterFocus"
+                          >
+                            <option title="문의 유형" value="" disabled>문의 유형을 선택하세요.</option>
+                            <option title="홈페이지" value="홈페이지">홈페이지</option>
+                            <option title="쇼핑몰" value="쇼핑몰">쇼핑몰</option>
+                            <option title="기타" value="기타">기타</option>
+                          </select>
+                        </div>
+                        <p class="error-msg">{{ errors[0] }}</p>
+                      </ValidationProvider>
+                    </div>
+
+                    <!-- 성명 -->
+                    <div class="contact__form-group">
+                      <ValidationProvider name="contactName" rules="required" v-slot="{ errors }">
+                        <div class="form-group" :class="{focus: isNameFocus, 'is-error': errors[0]}">
+                          <label for="contactName">성명</label>
+                          <input
+                            type="text"
+                            id="contactName"
+                            title="성명"
+                            placeholder="성명"
+                            v-model="contactName"
+                            @focus="isNameFocus = !isNameFocus"
+                            @blur="isNameFocus = !isNameFocus"
+                          >
+                        </div>
+                        <p class="error-msg">{{ errors[0] }}</p>
+                      </ValidationProvider>
+                    </div>
+
+                    <!-- 연락처 -->
+                    <div class="contact__form-group">
+                      <ValidationProvider name="contactPhone" rules="required|numeric" v-slot="{ errors }">
+                        <div class="form-group" :class="{focus: isPhoneFocus, 'is-error': errors[0]}">
+                          <label for="contactPhone">연락처</label>
+                          <input
+                            type="text"
+                            id="contactPhone"
+                            title="연락처"
+                            placeholder="연락처"
+                            v-model="contactPhone"
+                            @focus="isPhoneFocus = !isPhoneFocus"
+                            @blur="isPhoneFocus = !isPhoneFocus"
+                          >
+                        </div>
+                        <p class="error-msg">{{ errors[0] }}</p>
+                      </ValidationProvider>
+                    </div>
+
+                    <!-- 이메일 -->
+                    <div class="contact__form-group">
+                      <ValidationProvider name="contactEmail" rules="required|email" v-slot="{ errors }">
+                        <div class="form-group" :class="{focus: isEmailFocus, 'is-error': errors[0]}">
+                          <label for="contactEmail">이메일</label>
+                          <input
+                            type="email"
+                            id="contactEmail"
+                            title="이메일"
+                            placeholder="이메일"
+                            v-model="contactEmail"
+                            @focus="isEmailFocus = !isEmailFocus"
+                            @blur="isEmailFocus = !isEmailFocus"
+                          >
+                        </div>
+                        <p class="error-msg">{{ errors[0] }}</p>
+                      </ValidationProvider>
+                    </div>
+
+                    <!-- 내용 -->
+                    <div class="contact__form-group">
+                      <div class="form-group" :class="{focus: isContentsFocus}">
+                        <label for="contactContents">내용</label>
+                        <textarea
+                          title="내용"
+                          id="contactContents"
+                          placeholder="프로젝트 관련 내용 및 문의사항을 남겨주시면 최대한 빠른 시일 내에 연락드리겠습니다."
+                          v-model="contactContents"
+                          @focus="isContentsFocus = !isContentsFocus"
+                          @blur="isContentsFocus = !isContentsFocus"
+                        ></textarea>
+                      </div>
+                    </div>
+
+                    <!-- 동의 -->
+                    <div class="contact__form-group">
+                      <ValidationProvider name="contactAgree" rules="agree:1" v-slot="{ errors }">
+                        <div class="form-agree">
+                          <input
+                            type="checkbox"
+                            class="magic-checkbox"
+                            :class="{'is-error': errors[0]}"
+                            id="contactAgree"
+                            title="개인정보취급방침 동의 여부"
+                            v-model="contactAgree"
+                            value="1"
+                          >
+                          <label for="contactAgree">
+                            개인정보취급방침에 동의합니다.
+                          </label>
+                          <span @click="showModal = true">내용보기</span>
+                        </div>
+                        <p class="error-msg error-agree">{{ errors[0] }}</p>
+                      </ValidationProvider>
+                    </div>
+                    <div class="form-send">
+                      <button type="submit">보내기</button>
+                    </div>
+                  </form>
+                </ValidationObserver>
               </no-ssr>
-              <div class="form-send">
-                <button @click="sendContactData()">보내기</button>
-              </div>
             </div>
           </div>
         </aside>
@@ -212,6 +255,7 @@
 
 <script>
   import Modal from '~/components/modal';
+  import axios from 'axios';
 
   export default {
     components: {
@@ -330,31 +374,36 @@
         }
       },
       // 문의하기 데이터 보내기
-      sendContactData() {
-        console.log(
-          this.contactFilter,
-          this.contactName,
-          this.contactPhone,
-          this.contactEmail,
-          this.contactContents,
-          this.contactAgree
-        );
-        // 준비 중 모달
-        this.showReady = true;
-        // this.showAlert = true;
+      onSubmit () {
+        axios.post('https://formspree.io/mpzwovoy', {
+          문의유형: this.contactFilter,
+          성명: this.contactName,
+          연락처: this.contactPhone,
+          이메일: this.contactEmail,
+          내용: this.contactContents
+        }).then(resp => {
+          this.handleAlert();
+        }).catch(error => {
+          console.log(error);
+        })
+      },
+      handleAlert() {
+        this.showAlert = true;
       },
       closeAlert() {
         this.resetContactData();
+        this.isContactOpen = false;
+        this.isRightBg = false;
         this.showAlert = false;
       },
-      // 문의 데이터 리셋
-      resetContactData() {
+      resetContactData () {
         this.contactFilter = '';
         this.contactName = '';
         this.contactPhone = '';
         this.contactEmail = '';
         this.contactContents = '';
         this.contactAgree = false;
+        this.$refs.inquiryForm.reset();
       }
     }
   }
