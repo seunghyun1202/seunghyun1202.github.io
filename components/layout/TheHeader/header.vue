@@ -191,6 +191,14 @@
                     </div>
                     <div class="form-send">
                       <button type="submit">보내기</button>
+                      <div class="loading" v-if="isLoading">
+                        <div class="lds-ring">
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                        </div>
+                      </div>
                     </div>
                   </form>
                 </ValidationObserver>
@@ -291,6 +299,9 @@
         contactEmail: '',
         contactContents: '',
         contactAgree: false,
+
+        // 보내는 중
+        isLoading: false
       }
     },
     created() {
@@ -375,6 +386,7 @@
       },
       // 문의하기 데이터 보내기
       onSubmit () {
+        this.isLoading = true;
         axios.post('https://formspree.io/mpzwovoy', {
           문의유형: this.contactFilter,
           성명: this.contactName,
@@ -382,8 +394,10 @@
           이메일: this.contactEmail,
           내용: this.contactContents
         }).then(resp => {
+          this.isLoading = false;
           this.handleAlert();
         }).catch(error => {
+          this.isLoading = false;
           console.log(error);
         })
       },
