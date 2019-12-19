@@ -7,6 +7,37 @@
   }
 }
 
+.list__filter {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 0 6px;
+    @media (max-width: $device-breakpoint) {
+      margin-right: 10px;
+    }
+    &.active {
+      &:after {
+        position: absolute;
+        top: 49%;
+        left: 0;
+        display: block;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #000;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 .list__group {
   font-size: 0;
 }
@@ -91,4 +122,11 @@
       }
     }
   }
+}
+
+.list__empty {
+  font-size: 14px;
+  font-weight: $font-bold;
+  text-align: center;
+  padding: 120px 0;
 }

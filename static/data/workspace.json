@@ -4,6 +4,7 @@
   "email": "limseunghyun90@gamil.com",
   "data": [
     {
+      "ctg": ["all", "brand"],
       "id": "1",
       "link": "https://alleyway.co.kr/",
       "previewImg": "/portfolio/alleyway/alleyway-1.jpg",
@@ -25,6 +26,7 @@
       }
     },
     {
+      "ctg": ["all", "brand"],
       "id": "2",
       "link": "http://conde.co.kr/home?lang=ko-KR",
       "previewImg": "/portfolio/conde/conde-banner.jpg",
@@ -43,6 +45,7 @@
       }
     },
     {
+      "ctg": ["all", "brand"],
       "id": "3",
       "link": "http://www.sling-stone.com/",
       "previewImg": "/portfolio/conde/conde-banner.jpg",

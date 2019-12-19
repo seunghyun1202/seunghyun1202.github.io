@@ -4,16 +4,19 @@
   "email": "limseunghyun90@gamil.com",
   "data": [
     {
+      "ctg": ["all", "brand"],
       "id": "1",
       "workspaceThumbnail": "/portfolio/alleyway/thumbnail-alleyway.jpg",
       "workspaceName": "앨리웨이"
     },
     {
+      "ctg": ["all", "brand"],
       "id": "2",
       "workspaceThumbnail": "/portfolio/conde/thumbnail-conde.jpg",
       "workspaceName": "코앤드"
     },
     {
+      "ctg": ["all", "brand"],
       "id": "3",
       "workspaceThumbnail": "/portfolio/slingstone/thumbnail-slingstone.jpg",
       "workspaceName": "슬링스톤"
