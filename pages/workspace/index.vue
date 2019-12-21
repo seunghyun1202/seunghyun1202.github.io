@@ -15,30 +15,34 @@
 
       <!-- 리스트 -->
       <div class="">
-        <template v-if="workDataInfo.length === 0">
-          <p class="list__empty">목록이 없습니다.</p>
-        </template>
-        <template v-else>
-          <ul class="list__group">
-            <template v-for="(list, index) in workDataInfo">
-              <li class="workspace__list"
+        <transition name="empty">
+          <template v-if="workDataInfo.length === 0">
+            <p class="list__empty">목록이 없습니다.</p>
+          </template>
+        </transition>
+          <template>
+            <ul class="list__group">
+              <transition-group name="list">
+                <li
+                  v-for="(list, index) in workDataInfo"
+                  class="workspace__list"
                   :key="index"
-              >
-                <nuxt-link :to="{name: 'workspace-wid', params: {wid: list.id}}">
-                  <figure
-                    class="list__thumbnail"
-                    :style="{ backgroundImage: 'url(' + list.workspaceThumbnail + ')' }"
-                  ></figure>
-                  <div class="list__summary">
-                    <div class="list__title">
-                      {{list.workspaceName}}
+                >
+                  <nuxt-link :to="{name: 'workspace-wid', params: {wid: list.id}}">
+                    <figure
+                      class="list__thumbnail"
+                      :style="{ backgroundImage: 'url(' + list.workspaceThumbnail + ')' }"
+                    ></figure>
+                    <div class="list__summary">
+                      <div class="list__title">
+                        {{list.workspaceName}}
+                      </div>
                     </div>
-                  </div>
-                </nuxt-link>
-              </li>
-            </template>
-          </ul>
-        </template>
+                  </nuxt-link>
+                </li>
+              </transition-group>
+            </ul>
+          </template>
       </div>
     </div>
   </section>

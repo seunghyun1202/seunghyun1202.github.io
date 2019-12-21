@@ -63,6 +63,122 @@
         "img01": "/portfolio/slingstone/slingstone01.jpg",
         "img02": "/portfolio/slingstone/slingstone02.jpg"
       }
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "4",
+      "link": "https://us.boxobliss.com/",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "여러분의 기쁨상자,<br>박스 오블리스",
+      "ko": true,
+      "summaryText": "2019 BoxObliss e-commerce",
+      "useTech": {
+        "html": "HTML5",
+        "css": "SCSS",
+        "js": "JS"
+      },
+      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
+      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/slingstone/slingstone01.jpg"
+      }
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "5",
+      "link": "https://melomeli.co.kr/",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "Hello! meloMELI",
+      "summaryText": "2018 MeloMELI e-commerce",
+      "useTech": {
+        "html": "HTML5",
+        "css": "CSS",
+        "js": "JS",
+        "caf24": "CAFE24"
+      },
+      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
+      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/slingstone/slingstone01.jpg"
+      }
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "6",
+      "link": "http://dmcpy.com/",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "사랑하는 사람에게<br>선물하고 싶은 마음을 담다",
+      "ko": true,
+      "summaryText": "2017 드보르망 e-commerce",
+      "useTech": {
+        "html": "HTML5",
+        "css": "CSS",
+        "js": "JS",
+        "caf24": "CAFE24"
+      },
+      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
+      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/slingstone/slingstone01.jpg"
+      }
+    },
+    {
+      "ctg": ["all", "brand", "promotion"],
+      "id": "7",
+      "link": "http://www.fooddeuk.com/",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "한가득 당신의 삶을 채울<br>푸드득",
+      "ko": true,
+      "summaryText": "2019 푸드득 promotion",
+      "useTech": {
+        "html": "HTML5",
+        "css": "CSS",
+        "js": "JS",
+        "caf24": "CAFE24"
+      },
+      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
+      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/slingstone/slingstone01.jpg"
+      }
+    },
+    {
+      "ctg": ["all", "promotion"],
+      "id": "8",
+      "link": "http://munmu.com/main/ponyonair/ponyonair.php",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "메이크업 아티스트 포니가<br>당신을 향해 갑니다!",
+      "ko": true,
+      "summaryText": "2018 munmu promotion",
+      "useTech": {
+        "html": "HTML",
+        "css": "CSS",
+        "js": "JS"
+      },
+      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
+      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/slingstone/slingstone01.jpg"
+      }
+    },
+    {
+      "ctg": ["all", "brand", "promotion"],
+      "id": "9",
+      "link": "http://globing.co.kr/",
+      "previewImg": "/portfolio/conde/conde-banner.jpg",
+      "summarySlogan": "SNS 통합관리 서비스,<br>글로빙",
+      "ko": true,
+      "summaryText": "2019 GLOBING promotion",
+      "useTech": {
+        "html": "HTML5",
+        "css": "SCSS",
+        "js": "JS"
+      },
+      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
+      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "contentImg": {
+        "img01": "/portfolio/slingstone/slingstone01.jpg"
+      }
     }
   ]
 }

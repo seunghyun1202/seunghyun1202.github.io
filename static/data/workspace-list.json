@@ -20,6 +20,42 @@
       "id": "3",
       "workspaceThumbnail": "/portfolio/slingstone/thumbnail-slingstone.jpg",
       "workspaceName": "슬링스톤"
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "4",
+      "workspaceThumbnail": "/portfolio/shop/thumbnail-bob.jpg",
+      "workspaceName": "박스 오블리스"
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "5",
+      "workspaceThumbnail": "/portfolio/shop/thumbnail-melomeli.jpg",
+      "workspaceName": "멜로멜리"
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "6",
+      "workspaceThumbnail": "/portfolio/shop/thumbnail-dmcpy.jpg",
+      "workspaceName": "드보르망"
+    },
+    {
+      "ctg": ["all", "brand", "promotion"],
+      "id": "7",
+      "workspaceThumbnail": "/portfolio/promotion/thumbnail-food.jpg",
+      "workspaceName": "푸드득"
+    },
+    {
+      "ctg": ["all", "promotion"],
+      "id": "8",
+      "workspaceThumbnail": "/portfolio/promotion/thumbnail-munmu.jpg",
+      "workspaceName": "포니야 부탁해"
+    },
+    {
+      "ctg": ["all", "brand", "promotion"],
+      "id": "9",
+      "workspaceThumbnail": "/portfolio/promotion/thumbnail-globing.jpg",
+      "workspaceName": "글로빙"
     }
   ]
 }
