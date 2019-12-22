@@ -15,34 +15,30 @@
 
       <!-- 리스트 -->
       <div class="">
-        <transition name="empty">
-          <template v-if="workDataInfo.length === 0">
-            <p class="list__empty">목록이 없습니다.</p>
-          </template>
-        </transition>
-          <template>
-            <ul class="list__group">
-              <transition-group name="list">
-                <li
-                  v-for="(list, index) in workDataInfo"
-                  class="workspace__list"
-                  :key="index"
-                >
-                  <nuxt-link :to="{name: 'workspace-wid', params: {wid: list.id}}">
-                    <figure
-                      class="list__thumbnail"
-                      :style="{ backgroundImage: 'url(' + list.workspaceThumbnail + ')' }"
-                    ></figure>
-                    <div class="list__summary">
-                      <div class="list__title">
-                        {{list.workspaceName}}
-                      </div>
-                    </div>
-                  </nuxt-link>
-                </li>
-              </transition-group>
-            </ul>
-          </template>
+        <transition-group
+          name="list"
+          mode="out-in"
+          tag="ul"
+          class="list__group"
+        >
+          <li
+            v-for="(list, index) in workDataInfo"
+            class="workspace__list"
+            :key="list.id"
+          >
+            <nuxt-link :to="{name: 'workspace-wid', params: {wid: list.id}}">
+              <figure
+                class="list__thumbnail"
+                :style="{ backgroundImage: 'url(' + list.workspaceThumbnail + ')' }"
+              ></figure>
+              <div class="list__summary">
+                <div class="list__title">
+                  {{list.workspaceName}}
+                </div>
+              </div>
+            </nuxt-link>
+          </li>
+        </transition-group>
       </div>
     </div>
   </section>
@@ -109,13 +105,13 @@
       },
       callBrandData () {
         axios.get(process.env.API_SERVER_ADDRESS + '/data/workspace-list.json').then((resp) => {
-          let brand = [];
+          let data = [];
           for (let i=0; i < resp.data.data.length; i++) {
             if (resp.data.data[i].ctg.indexOf('brand') >= 0) {
-              brand.push(resp.data.data[i]);
+              data.push(resp.data.data[i]);
             }
           }
-          this.workDataInfo = brand;
+          this.workDataInfo = data;
         });
       },
       callEcommerceData () {

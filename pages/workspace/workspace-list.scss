@@ -39,18 +39,20 @@
 }
 
 .list__group {
-  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .workspace__list {
   position: relative;
-  display: inline-block;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  flex-basis: 50%;
   border: 1px solid #fff;
   @media (max-width: $device-breakpoint) {
-    width: 100%;
+    flex-basis: 100%;
     border: none;
-    margin-bottom: 2px;
   }
 
   .list__thumbnail {
@@ -125,22 +127,13 @@
   }
 }
 
-.list__empty {
-  font-size: 14px;
-  font-weight: $font-bold;
-  text-align: center;
-  padding: 120px 0;
-}
-
-.empty-enter, .list-enter {
+.list-enter {
   opacity: 0 !important;
 }
 
-.empty-enter-active, .list-enter-active {
-  opacity: 1;
-  transition: opacity 0.3s ease-in;
+.list-enter-active {
+  transition: opacity 0.45s ease-in;
 }
 
 .empty-leave-active, .list-leave-active {
-  transition: 0s;
 }
