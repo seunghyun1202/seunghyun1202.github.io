@@ -181,13 +181,10 @@
     a {
       position: relative;
       display: inline-block;
-      font-size: 42px;
+      font-size: 36px;
       font-weight: 600;
       padding: 0 10px;
       text-transform: uppercase;
-      @media (max-width: $device-breakpoint) {
-        font-size: 36px;
-      }
       &.nuxt-link-active {
         .line {
           position: absolute;

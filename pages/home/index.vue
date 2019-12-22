@@ -9,7 +9,7 @@
             <div class="main-visual__wording">
               <h2>
                 <nuxt-link
-                  :to="{ name: 'workspace-wid', params: {wid:2}}"
+                  :to="{ name: 'workspace-wid', params: { wid: 2}}"
                   class="main-visual__text fira-title"
                 >Project Co&amp;de</nuxt-link>
               </h2>
