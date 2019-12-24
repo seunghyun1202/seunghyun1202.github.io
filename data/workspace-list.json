@@ -6,20 +6,56 @@
     {
       "ctg": ["all", "brand"],
       "id": "1",
-      "workspaceThumbnail": "/portfolio/alleyway/thumbnail-alleyway.jpg",
+      "workspaceThumbnail": "/portfolio/alleyway/thumbnail.jpg",
       "workspaceName": "앨리웨이"
     },
     {
       "ctg": ["all", "brand"],
       "id": "2",
-      "workspaceThumbnail": "/portfolio/conde/thumbnail-conde.jpg",
+      "workspaceThumbnail": "/portfolio/conde/thumbnail.jpg",
       "workspaceName": "코앤드"
     },
     {
       "ctg": ["all", "brand"],
       "id": "3",
-      "workspaceThumbnail": "/portfolio/slingstone/thumbnail-slingstone.jpg",
+      "workspaceThumbnail": "/portfolio/slingstone/thumbnail.jpg",
       "workspaceName": "슬링스톤"
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "4",
+      "workspaceThumbnail": "/portfolio/boxobliss/thumbnail.jpg",
+      "workspaceName": "박스 오블리스"
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "5",
+      "workspaceThumbnail": "/portfolio/melomeli/thumbnail.jpg",
+      "workspaceName": "멜로멜리"
+    },
+    {
+      "ctg": ["all", "e-commerce"],
+      "id": "6",
+      "workspaceThumbnail": "/portfolio/dmcpy/thumbnail.jpg",
+      "workspaceName": "드보르망"
+    },
+    {
+      "ctg": ["all", "brand", "promotion"],
+      "id": "7",
+      "workspaceThumbnail": "/portfolio/fooddeuk/thumbnail.jpg",
+      "workspaceName": "푸드득"
+    },
+    {
+      "ctg": ["all", "promotion"],
+      "id": "8",
+      "workspaceThumbnail": "/portfolio/munmu/thumbnail.jpg",
+      "workspaceName": "포니야 부탁해"
+    },
+    {
+      "ctg": ["all", "brand", "promotion"],
+      "id": "9",
+      "workspaceThumbnail": "/portfolio/globing/thumbnail.jpg",
+      "workspaceName": "글로빙"
     }
   ]
 }
