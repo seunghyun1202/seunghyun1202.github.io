@@ -17,7 +17,7 @@
 
   &.main-header {
     .layout-header__button {
-      color: #fff;
+      color: #000;
       transition: 0.5s;
 
       &.color-black {
@@ -27,7 +27,7 @@
 
     .logo__icon {
       path {
-        fill: #fff;
+        fill: #000;
       }
     }
   }
@@ -50,6 +50,7 @@
 
     a {
       display: block;
+      font-size: 25px;
     }
   }
 

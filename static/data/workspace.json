@@ -21,7 +21,8 @@
       "techText": "방문하는 고객의 입장에서 핵심 정보와 부가정보를 구분하고, 이러한 중요도에 따라 노출 수준을 달리하여 화면에 메뉴 구성을 단순화하였습니다.",
       "contentImg": {
         "img01": "/portfolio/alleyway/detail01.jpg",
-        "img02": "/portfolio/alleyway/detail02.jpg"
+        "img02": "/portfolio/alleyway/detail02.jpg",
+        "img03": "/portfolio/alleyway/detail03.jpg"
       }
     },
     {
@@ -41,7 +42,8 @@
       "techText": "애니메이션을 깨지지 않고 자연스럽게 구현하였으며, 롱스크롤 기법을 활용하여 사용자가 흥미를 느낄 요소를 추가하였습니다.",
       "contentImg": {
         "img01": "/portfolio/conde/detail01.jpg",
-        "img02": "/portfolio/conde/detail02.jpg"
+        "img02": "/portfolio/conde/detail02.jpg",
+        "img03": "/portfolio/conde/detail03.jpg"
       }
     },
     {
@@ -60,8 +62,9 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/slingstone/slingstone01.jpg",
-        "img02": "/portfolio/slingstone/slingstone02.jpg"
+        "img01": "/portfolio/slingstone/detail01.jpg",
+        "img02": "/portfolio/slingstone/detail02.jpg",
+        "img03": "/portfolio/slingstone/detail03.jpg"
       }
     },
     {
@@ -80,7 +83,9 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/slingstone/slingstone01.jpg"
+        "img01": "/portfolio/boxobliss/detail01.jpg",
+        "img02": "/portfolio/boxobliss/detail02.jpg",
+        "img03": "/portfolio/boxobliss/detail03.jpg"
       }
     },
     {
@@ -99,7 +104,9 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/slingstone/slingstone01.jpg"
+        "img01": "/portfolio/melomeli/detail01.jpg",
+        "img02": "/portfolio/melomeli/detail02.jpg",
+        "img03": "/portfolio/melomeli/detail03.jpg"
       }
     },
     {
@@ -119,7 +126,9 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/slingstone/slingstone01.jpg"
+        "img01": "/portfolio/dmcpy/detail01.jpg",
+        "img02": "/portfolio/dmcpy/detail02.jpg",
+        "img03": "/portfolio/dmcpy/detail03.jpg"
       }
     },
     {
@@ -138,7 +147,8 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/promotion/fooddeuk.jpg"
+        "img01": "/portfolio/fooddeuk/detail01.jpg",
+        "img02": "/portfolio/fooddeuk/detail02.jpg"
       }
     },
     {
@@ -157,7 +167,8 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/promotion/pony.jpg"
+        "img01": "/portfolio/munmu/detail01.jpg",
+        "img02": "/portfolio/munmu/detail02.jpg"
       }
     },
     {
@@ -176,7 +187,8 @@
       "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
       "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
       "contentImg": {
-        "img01": "/portfolio/promotion/globing.jpg"
+        "img01": "/portfolio/globing/detail01.jpg",
+        "img02": "/portfolio/globing/detail02.jpg"
       }
     }
   ]

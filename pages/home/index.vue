@@ -57,6 +57,7 @@
   export default {
     data () {
       return {
+        test: '',
         swiperOptionMainVisual: {
           loop: true,
           mousewheel: true,
