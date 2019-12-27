@@ -39,20 +39,16 @@
 }
 
 .list__group {
-  display: flex;
-  flex-wrap: wrap;
+  font-size: 0;
 }
 
 .workspace__list {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  flex: none;
-  flex-basis: 50%;
+  display: inline-block;
+  width: 50%;
   border: 1px solid #fff;
   @media (max-width: $device-breakpoint) {
-    flex-basis: 100%;
-    border: none;
+    width: 100%;
   }
 
   .list__thumbnail {

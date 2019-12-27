@@ -63,5 +63,6 @@ module.exports = {
   plugins: [
     {src: '~/plugins/vue-awesome-swiper.js', ssr: false},
     {src: '~/plugins/vee-validate.js', ssr: false},
+    {src: '~/plugins/vue-isotope.js', ssr: false},
   ]
 }
