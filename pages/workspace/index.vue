@@ -6,7 +6,6 @@
       <ul class="list__filter">
         <li
           v-for="(val, key) in option.getFilterData"
-          class="button"
           :class="[key===filterOption? 'active' : '']"
           @click="filter(key)"
         >
@@ -23,7 +22,7 @@
         :options='option'
         @filter="filterOption=arguments[0]"
       >
-        <div v-for="(element, index) in workDataInfo" :class='[element.category]'  :key="index">
+        <div v-for="(element, index) in workDataInfo" :key="index">
           <nuxt-link :to="{name: 'workspace-wid', params: {wid: element.id}}">
             <figure
               class="list__thumbnail"
@@ -58,16 +57,16 @@
         option: {
           itemSelector: ".workspace__list",
           getFilterData: {
-            "All": function () {
+            "All": () => {
               return true;
             },
-            "Brand": function (el) {
+            "Brand": (el) => {
               return el.ctg.indexOf('brand') >= 0;
             },
-            "E-commerce": function (el) {
+            "E-commerce": (el) => {
               return el.ctg.indexOf('e-commerce') >= 0;
             },
-            "Promotion": function (el) {
+            "Promotion": (el) => {
               return el.ctg.indexOf('promotion') >= 0;
             }
           }
@@ -75,7 +74,7 @@
       }
     },
     methods: {
-      filter: function(key) {
+      filter (key) {
         this.$refs.cpt.filter(key);
       },
     }

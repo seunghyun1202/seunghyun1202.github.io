@@ -1,14 +1,10 @@
 <template>
   <div class="about">
-    <div class="about__banner" role="banner">
-      <div class="bg-cover"></div>
-    </div>
-    <div class="container-small">
+<!--    <div class="about__banner" role="banner">-->
+<!--      <div class="bg-cover"></div>-->
+<!--    </div>-->
+    <div class="container">
       <section class="about__body">
-<!--        <div class="about__goal">-->
-<!--          <p>Life motto</p>-->
-<!--          <span>“hope for the best, prepare for the worst”</span>-->
-<!--        </div>-->
         <div class="about__intro">
           <div class="row">
             <div class="col-6">

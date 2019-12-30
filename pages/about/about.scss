@@ -1,6 +1,8 @@
 .about {
+  padding-top: 160px;
   padding-bottom: 80px;
   @media (max-width: $device-breakpoint) {
+    padding-top: 120px;
     padding-bottom: 60px;
   }
 }
