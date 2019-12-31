@@ -90,13 +90,28 @@
   import axios from 'axios';
 
   export default {
-    async asyncData({params}) {
+    async asyncData({context, params}) {
       let {data: workspaceData} = await axios.get(process.env.API_SERVER_ADDRESS + '/data/workspace.json')
       return {
         workNumber: Number(params.wid),
         workDataList: workspaceData.data.length,
-        workData: workspaceData.data[params.wid - 1]
+        workData: workspaceData.data,
       }
+    },
+    data () {
+      return {
+        detailData: {}
+      }
+    },
+    created () {
+      let id = this.workNumber;
+      let data = {};
+      let detail = this.workData.forEach((item) => {
+        if (item.id.indexOf(id) >= 0) {
+          data = item;
+        };
+      });
+      this.workData = data;
     }
   }
 </script>
