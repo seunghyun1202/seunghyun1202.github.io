@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    <TheHeader/>
+    <TheHeader v-if="isHeaderShow"/>
     <nuxt class="layout-container"/>
     <TheFooter v-if="isFooterShow"/>
   </div>
@@ -17,7 +17,8 @@
     },
     data () {
       return {
-        isFooterShow: true
+        isFooterShow: true,
+        isHeaderShow: true
       }
     },
     created () {
@@ -29,6 +30,14 @@
       } else {
         this.isFooterShow = true
       }
+
+      if (this.$route.name === 'ready') {
+        this.isHeaderShow = false
+        this.isFooterShow = false
+      } else {
+        this.isHeaderShow = true
+        this.isFooterShow = true
+      }
     },
     watch: {
       // Route 감지하여 footer show/hide
@@ -36,6 +45,14 @@
         if (this.$route.name === 'home') {
           this.isFooterShow = false
         } else {
+          this.isFooterShow = true
+        }
+
+        if (this.$route.name === 'ready') {
+          this.isHeaderShow = false
+          this.isFooterShow = false
+        } else {
+          this.isHeaderShow = true
           this.isFooterShow = true
         }
       }

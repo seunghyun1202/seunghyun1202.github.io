@@ -118,8 +118,6 @@
                 <p class="service__wording">
                   의도한 컨셉과 정의를 시각적으로 확인할 수 있도록 임시 콘텐츠를 만듭니다. 전체적인 기틀이 만들어지는 중요한 단계이므로 적극적인 소통과 의견 교환이 필요합니다.
                 </p>
-
-<!--                <nuxt-link class="service__btn" to="/service/guide">Style Guide</nuxt-link>-->
               </div>
             </div>
             <div class="col-6">
