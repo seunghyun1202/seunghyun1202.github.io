@@ -3,7 +3,7 @@
     <div class="layout-header__inner">
       <h1 class="layout-header__logo">
         <nuxt-link to="/home">
-          buzzer beater
+          LOGO
           <span class="a11y-hidden">승현 웹사이트</span>
         </nuxt-link>
       </h1>
