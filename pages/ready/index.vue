@@ -3,7 +3,7 @@
     <div class="">
       <i class="ti-timer"></i>
     </div>
-    <h1>준비 중입니다.</h1>
+    <h1>준비 중입니다. 테스트</h1>
   </section>
 </template>
 
