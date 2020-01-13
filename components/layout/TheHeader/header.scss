@@ -11,30 +11,23 @@
   transition: 0.3s;
 
   .logo__icon {
-    width: 46px;
+    width: 100px;
     vertical-align: top;
   }
 
   &.main-header {
     .layout-header__button {
-      color: #000;
+      color: #161616;
       transition: 0.5s;
 
       &.color-black {
-        color: #000;
-      }
-    }
-
-    .logo__icon {
-      path {
-        fill: #000;
+        color: #161616;
       }
     }
   }
 
   &.fixed {
     background: #fff;
-    // box-shadow: 0px -8px 12px 2px rgba(0, 0, 0, 0.3);
   }
 
   .layout-header__inner {
@@ -70,7 +63,7 @@
     display: none;
     width: 100%;
     height: 100vh;
-    background: #000;
+    background: #161616;
     opacity: 0.3;
 
     &.layout-header__bg__left {
@@ -117,7 +110,7 @@
     }
 
     &.color-black {
-      color: #000;
+      color: #161616;
     }
 
     &.zindex {
@@ -194,7 +187,7 @@
           display: block;
           width: 100%;
           height: 3px;
-          background: #000;
+          background: #161616;
         }
       }
     }
@@ -241,7 +234,7 @@
       content: '';
       width: 0;
       height: 1px;
-      background: #000;
+      background: #161616;
     }
     &.focus {
       &:before {
@@ -311,7 +304,7 @@
       width: 120px;
       height: 50px;
       line-height: 50px;
-      border: 1px solid #000;
+      border: 1px solid #161616;
       font-size: 16px;
       font-weight: $font-bold;
     }
@@ -320,7 +313,7 @@
 
 .contact-modal__body {
   p {
-    color: #000;
+    color: #161616;
   }
 }
 
@@ -332,7 +325,7 @@
   width: 100%;
   height: 100%;
   background: #fff;
-  border: 1px solid #000;
+  border: 1px solid #161616;
 }
 .lds-ring {
   position: relative;
@@ -349,10 +342,10 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 3px solid #000;
+  border: 3px solid #161616;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #000 transparent transparent transparent;
+  border-color: #161616 transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;

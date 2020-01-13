@@ -30,7 +30,7 @@
   }
 
   .swiper-pagination {
-    color: #000;
+    color: #161616;
     bottom: 24px;
   }
 }
@@ -42,7 +42,7 @@
 
 .main-visual__info {
   font-size: 16px;
-  color: #000;
+  color: #161616;
 }
 
 .main-visual__wording {
@@ -58,7 +58,7 @@
   font-size: 72px;
   font-weight: 500;
   text-align: center;
-  color: #000;
+  color: #161616;
   transition: 0.3s;
   @media (max-width: $device-breakpoint) {
     font-size: 32px;

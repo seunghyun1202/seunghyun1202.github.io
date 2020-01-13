@@ -9,11 +9,11 @@
             <div class="main-visual__wording">
               <h2>
                 <nuxt-link
-                  :to="{ name: 'workspace-wid', params: { wid: 2}}"
+                  to="/workspace"
                   class="main-visual__text fira-title"
-                >Project Co&amp;de</nuxt-link>
+                >Workspace</nuxt-link>
               </h2>
-              <p class="main-visual__info">애니메이션을 활용한 웹사이트입니다.</p>
+              <p class="main-visual__info">피벗의 작업 공간을 보실 수 있습니다.</p>
             </div>
           </div>
           <!-- Numbering 02 -->
@@ -26,7 +26,7 @@
                   class="main-visual__text fira-title"
                 >Service</nuxt-link>
               </h2>
-              <p class="main-visual__info">웹사이트가 제작되는 과정을 보실 수 있습니다.</p>
+              <p class="main-visual__info">피벗이 제공하는 서비스를 보실 수 있습니다.</p>
             </div>
           </div>
           <!-- Numbering 03 -->
@@ -37,9 +37,9 @@
                 <nuxt-link
                   to="/about"
                   class="main-visual__text fira-title"
-                >About Me</nuxt-link>
+                >About PIVOT</nuxt-link>
               </h2>
-              <p class="main-visual__info">저에 대해 소개합니다.</p>
+              <p class="main-visual__info">피벗에 대해 소개합니다.</p>
             </div>
           </div>
         </div>

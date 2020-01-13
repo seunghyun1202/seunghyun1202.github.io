@@ -140,7 +140,7 @@
   li {
     margin-right: 10px;
     font-weight: $font-regular;
-    color: #000;
+    color: #161616;
   }
 }
 
@@ -178,7 +178,7 @@
       width: 0;
       height: 2px;
       margin-top: 6px;
-      background: #000;
+      background: #161616;
       transition: 0.3s;
       @media (max-width: $device-breakpoint) {
         display: none;
@@ -214,7 +214,7 @@
     position: absolute;
     width: 17px;
     height: 17px;
-    border: 2px solid #000;
+    border: 2px solid #161616;
     @media (max-width: $device-breakpoint) {
       width: 12px;
       height: 12px;

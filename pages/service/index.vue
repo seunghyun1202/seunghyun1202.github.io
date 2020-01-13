@@ -6,7 +6,7 @@
         <h1>01. what we do?</h1>
         <div class="common__contents">
           <p class="contents__text">
-            OOO는 디자인과 개발 팀으로 이루어져 있습니다.<br>
+            피벗은 디자인과 개발 팀으로 이루어져 있습니다.<br>
             트렌드에 맞는 기술을 활용하지만 필요에 따라 다른 기술도 활용합니다.<br>
             솔루션과 CMS 기반으로 개발 가능합니다.
           </p>

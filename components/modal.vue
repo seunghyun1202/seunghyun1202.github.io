@@ -79,7 +79,7 @@
     p {
       font-size: 16px;
       font-weight: $font-semi-bold;
-      color: #000;
+      color: #161616;
       margin-bottom: 6px;
     }
   }
@@ -91,7 +91,7 @@
     width: 80px;
     height: 40px;
     line-height: 40px;
-    border: 1px solid #000;
+    border: 1px solid #161616;
     font-size: 14px;
   }
 
