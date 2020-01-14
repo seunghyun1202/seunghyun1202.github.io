@@ -5,9 +5,8 @@
   "data": [
     {
       "ctg": ["all", "brand"],
-      "id": "1",
+      "id": "2",
       "link": "https://alleyway.co.kr/",
-      "previewImg": "/portfolio/alleyway/alleyway-1.jpg",
       "summarySlogan": "도심 속 새로운 공간을<br>디지털에서 표현하다.</span>",
       "ko": true,
       "summaryText": "2019 Alleyway Branding",
@@ -27,9 +26,8 @@
     },
     {
       "ctg": ["all", "brand"],
-      "id": "2",
+      "id": "1",
       "link": "http://conde.co.kr/home?lang=ko-KR",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "YES!<br>YOUR IDEA<br>CAN BE REAL",
       "summaryText": "2019 Conde Brand renewal",
       "useTech": {
@@ -48,9 +46,8 @@
     },
     {
       "ctg": ["all", "brand"],
-      "id": "3",
+      "id": "5",
       "link": "http://www.sling-stone.com/",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "SEE THE UNSEEN",
       "summaryText": "2019 SlingStone Brand",
       "useTech": {
@@ -69,9 +66,8 @@
     },
     {
       "ctg": ["all", "e-commerce"],
-      "id": "4",
+      "id": "3",
       "link": "https://us.boxobliss.com/",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "여러분의 기쁨상자,<br>박스 오블리스",
       "ko": true,
       "summaryText": "2019 BoxObliss e-commerce",
@@ -80,8 +76,8 @@
         "css": "SCSS",
         "js": "JS"
       },
-      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
-      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "descText": "박스 오블리스 프로젝트를 시작할 때부터 초점은 물류관리 시스템과 쇼핑몰 관리에 맞추어져 있었습니다. 박스 오블리스라는 큰 틀 안에 다양한 브랜드가 입점하는 형태로 변경 되면서 가장 핵심적인 이슈였죠. 프론트 부분에서는 인터페이스를 단순화하여 고객이 물건을 고르거나 결제할 때 헤매지 않도록 개선하였습니다.",
+      "techText": "인터페이스가 복잡하지 않도록 필요하지 않은 기능들은 과감히 제외하였습니다. 브랜드관을 별도로 관리가 가능하도록 설계하여 쇼피몰 관리자가 관리하기 쉽도록 신경을 썼습니다.",
       "contentImg": {
         "img01": "/portfolio/boxobliss/detail01.jpg",
         "img02": "/portfolio/boxobliss/detail02.jpg",
@@ -90,9 +86,8 @@
     },
     {
       "ctg": ["all", "e-commerce"],
-      "id": "5",
+      "id": "4",
       "link": "https://melomeli.co.kr/",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "Hello! meloMELI",
       "summaryText": "2018 MeloMELI e-commerce",
       "useTech": {
@@ -101,8 +96,8 @@
         "js": "JS",
         "caf24": "CAFE24"
       },
-      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
-      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "descText": "멜로멜리 킥오프 미팅 당시, 클라이언트가 원했던 방향은 단 한 가지 였습니다. 비슷비슷한 카페24 레이아웃의 한계를 벗어나고 싶다는 것. 멜로멜리 측에서 제안한 디자인을 거의 손 대지 않고 시행착오를 거쳐 그대로 구현하는 데 집중하였습니다.",
+      "techText": "카페24 특성 상 구현하기 어려웠던 부분들이 있었지만, 자바스크립트를 최대한 활용하여 디자인을 변경하지 않았습니다. 쇼핑몰 특성 상 관리가 수월해야 했기에 관리자가 코딩 지식이 없어도 쉽게 수정할 수 있도록 제작하였습니다.",
       "contentImg": {
         "img01": "/portfolio/melomeli/detail01.jpg",
         "img02": "/portfolio/melomeli/detail02.jpg",
@@ -113,7 +108,6 @@
       "ctg": ["all", "e-commerce"],
       "id": "6",
       "link": "http://dmcpy.com/",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "사랑하는 사람에게<br>선물하고 싶은 마음을 담다",
       "ko": true,
       "summaryText": "2017 드보르망 e-commerce",
@@ -123,8 +117,8 @@
         "js": "JS",
         "caf24": "CAFE24"
       },
-      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
-      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "descText": "전체적인 디자인이 제품과 어울리고, 제품보다 디자인이 너무 부각되지 않도록 신경 써달라는 요청이 있었습니다. 제품군이 두 가지였기 때문에 너무 휑한 느낌을 주지 않기 위해 전체적으로 큼지막한 디자인을 사용하였고, 제품 컬러에 맞는 화이트 앤 블랙을 사용하여 제작하였습니다.",
+      "techText": "기본적인 카페24 기능만 사용했기 때문에 기술적인 부분은 평범했지만, 클라이언트가 쇼핑몰 운영할 때 놓칠 수 있는 부분들은 역제안하여 기능을 추가하였습니다.",
       "contentImg": {
         "img01": "/portfolio/dmcpy/detail01.jpg",
         "img02": "/portfolio/dmcpy/detail02.jpg",
@@ -135,7 +129,6 @@
       "ctg": ["all", "brand", "promotion"],
       "id": "7",
       "link": "http://www.fooddeuk.com/",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "한가득 당신의 삶을 채울<br>푸드득",
       "ko": true,
       "summaryText": "2019 푸드득 promotion",
@@ -144,8 +137,8 @@
         "css": "CSS3",
         "js": "JS"
       },
-      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
-      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "descText": "학교 주변에서 저렴하고 맛 좋은 음식점을 찾는 앱을 출시하였고 이 앱을 소개할 수 있는 랜딩 페이지를 제작하기를 원했습니다. 오프라인 미팅만 수 차례 걸쳐 진행하였으며, 복잡하지 않게 앱의 핵심 기능을 소개하는 내용을 담는 것이 목표였습니다.",
+      "techText": "슬라이드 기능을 통해 핵심 기능을 나타낼 수 있도록 하였고, 롱 스크롤 기법에 애니메이션을 추가하여 사용자가 지루하지 않도록 하였습니다. 중복 실행을 방지하여 속도 이슈에도 신경을 썼습니다.",
       "contentImg": {
         "img01": "/portfolio/fooddeuk/detail01.jpg",
         "img02": "/portfolio/fooddeuk/detail02.jpg"
@@ -155,7 +148,6 @@
       "ctg": ["all", "promotion"],
       "id": "8",
       "link": "http://munmu.com/main/ponyonair/ponyonair.php",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "메이크업 아티스트 포니가<br>당신을 향해 갑니다!",
       "ko": true,
       "summaryText": "2018 munmu promotion",
@@ -164,8 +156,8 @@
         "css": "CSS",
         "js": "JS"
       },
-      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
-      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "descText": "뷰티 유튜버 포니가 진행하는 이벤트를 소개하기 위한 페이지를 만들고자 하였습니다. 관리자에서 이벤트 영상을 등록하면 해당 영상을 페이지에 리스트업하여 고객이 볼 수 있도록 만들었습니다.",
+      "techText": "롱 스크롤 기법에 애니메이션을 추가하여 사용자가 지루하지 않도록 하였고 네온 이미지를 활용하여 정적인 느낌도 벗어날 수 있도록 하였습니다.",
       "contentImg": {
         "img01": "/portfolio/munmu/detail01.jpg",
         "img02": "/portfolio/munmu/detail02.jpg"
@@ -175,7 +167,6 @@
       "ctg": ["all", "brand", "promotion"],
       "id": "9",
       "link": "http://globing.co.kr/",
-      "previewImg": "/portfolio/conde/conde-banner.jpg",
       "summarySlogan": "SNS 통합관리 서비스,<br>글로빙",
       "ko": true,
       "summaryText": "2019 GLOBING promotion",
@@ -184,8 +175,8 @@
         "css": "SCSS",
         "js": "JS"
       },
-      "descText": "슬링스톤은 시작한지 얼마 안된 신생 엔터테인먼트 회사였습니다. 웹사이트의 비주얼적인 부분보다 아티스트가 더 눈에 띄길 원했고, 시원시원한 레이아웃과 큼지막한 이미지 사용으로 슬링스톤 소속의 아티스트를 돋보이게 제작되었습니다.",
-      "techText": "사용자들이 보는 뷰(View) 화면보다 웹사이트 관리자가 편하게 관리할 수 있도록 관리자 기능에 더 많은 시간을 들였습니다.",
+      "descText": "블로그, 인스타그램을 통한 마케터들의 편의성을 위해 제작된 앱을 소개하기 위한 랜딩 페이지가 초기 기획이었지만 시간이 지나면서 해당 웹사이트에서도 간단한 정보는 조회할 수 있는 방향으로 변경되어 글로빙 웹사이트로 제작되었습니다.",
+      "techText": "롱 스크롤 기법에 애니메이션을 추가하였고, 마이크로 인터랙션을 적용해 최대한 동적인 웹사이트로 제작하였습니다.",
       "contentImg": {
         "img01": "/portfolio/globing/detail01.jpg",
         "img02": "/portfolio/globing/detail02.jpg"
