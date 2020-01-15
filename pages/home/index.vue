@@ -37,7 +37,7 @@
                 <nuxt-link
                   to="/about"
                   class="main-visual__text fira-title"
-                >About PIVOT</nuxt-link>
+                >About</nuxt-link>
               </h2>
               <p class="main-visual__info">피벗에 대해 소개합니다.</p>
             </div>
