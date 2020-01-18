@@ -7,3 +7,30 @@
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: $font-medium;
 }
+
+@font-face {
+  font-family: 'Minimo';
+  font-weight: 700;
+  src:url('/fonts/Minimo-Bold.eot?-fvbane');
+  src:url('/fonts/Minimo-Bold.eot?#iefix-fvbane') format('embedded-opentype'),
+  url('/fonts/Minimo-Bold.woff?-fvbane') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Minimo';
+  font-weight: 600;
+  src:url('/fonts/Minimo-Medium.eot?-fvbane');
+  src:url('/fonts/Minimo-Medium.eot?#iefix-fvbane') format('embedded-opentype'),
+  url('/fonts/Minimo-Medium.woff?-fvbane') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Minimo';
+  font-weight: 500;
+  src:url('/fonts/Minimo-Regular.eot?-fvbane');
+  src:url('/fonts/Minimo-Regular.eot?#iefix-fvbane') format('embedded-opentype'),
+  url('/fonts/Minimo-Regular.woff?-fvbane') format('woff');
+  font-style: normal;
+}

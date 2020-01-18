@@ -1,6 +1,6 @@
 <template>
   <footer class="layout-footer">
-    <p class="layout-footer__copyright">Copyright 2019. LimSeungHyun. All rights reserved.</p>
+    <p class="layout-footer__copyright">Copyright 2020 pivot. All rights reserved.</p>
   </footer>
 </template>
 

@@ -1,3 +1,6 @@
+.logo-path {
+  fill: $primary-color;
+}
 .layout-header {
   position: fixed;
   top: 0;
@@ -17,17 +20,17 @@
 
   &.main-header {
     .layout-header__button {
-      color: #161616;
+      color: $black;
       transition: 0.5s;
 
       &.color-black {
-        color: #161616;
+        color: $black;
       }
     }
   }
 
   &.fixed {
-    background: #fff;
+    background: $beige;
   }
 
   .layout-header__inner {
@@ -104,13 +107,14 @@
     font-size: 16px;
     font-weight: $font-semi-bold;
     text-align: left;
+    color: $black;
 
     &.text-right {
       text-align: right !important;
     }
 
     &.color-black {
-      color: #161616;
+      color: $black;
     }
 
     &.zindex {
@@ -179,6 +183,7 @@
       font-weight: 600;
       padding: 0 10px;
       text-transform: uppercase;
+      color: $black;
       &.nuxt-link-active {
         .line {
           position: absolute;
@@ -187,7 +192,7 @@
           display: block;
           width: 100%;
           height: 3px;
-          background: #161616;
+          background: $black;
         }
       }
     }
@@ -302,8 +307,8 @@
     margin-top: 26px;
     button {
       width: 120px;
-      height: 50px;
-      line-height: 50px;
+      height: 40px;
+      line-height: 40px;
       border: 1px solid #161616;
       font-size: 16px;
       font-weight: $font-bold;

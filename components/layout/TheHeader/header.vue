@@ -4,11 +4,6 @@
       <h1 class="layout-header__logo">
         <nuxt-link to="/home">
           <svg class="logo__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158.54 48.68">
-            <defs>
-              <style>
-                .logo-path {fill:#161616;}
-              </style>
-            </defs>
             <g id="7ff98e55-3986-46d3-bdda-c63a0bdd346c" data-name="레이어 2">
               <g id="95064510-96ac-4844-af36-5f7bf68000f7" data-name="레이어 1">
                 <path class="logo-path" d="M31.38,8.43a18.47,18.47,0,0,0-26.14.44A18.61,18.61,0,0,0,5,34.54l0,0,.5.62L19.52,48.68l-.1-7.53a.91.91,0,0,1,.84-.93A18.55,18.55,0,0,0,31.38,8.43Z"/>

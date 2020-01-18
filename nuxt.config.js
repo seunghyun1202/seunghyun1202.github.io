@@ -8,11 +8,15 @@ module.exports = {
     htmlAttrs: {
       lang: 'ko_KR',
     },
-    title: 'Lim SeungHyun WebSite',
+    title: 'pivot',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'SeungHyun Portfolio' }
+      { hid: 'description', name: 'description', content: 'pivot web studioF' },
+      { property: 'og:title', content: 'pivot' },
+      { property: 'og:description', content: 'pivot web studio' },
+      { property: 'og:image', content: 'https://seunghyun1202.github.io/og.jpg' },
+      { property: 'og:url', content: 'https://seunghyun1202.github.io/' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -48,7 +52,7 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: {
-    color: '#3B8070'
+    color: '#0047ab'
   },
   /*
   ** Build configuration

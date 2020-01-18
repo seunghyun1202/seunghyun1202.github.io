@@ -1,45 +1,168 @@
 .about {
   padding-top: 160px;
   padding-bottom: 80px;
+  background: $beige;
   @media (max-width: $device-breakpoint) {
     padding-top: 120px;
     padding-bottom: 60px;
   }
 }
 
-.about__banner {
-  position: relative;
-  background: url('/img/about/about-banner.jpg') no-repeat 0;
-  background-size: cover;
-  padding-bottom: 20%;
+.about__body {
+  padding-bottom: 120px;
   @media (max-width: $device-breakpoint) {
-    padding-bottom: 40%;
-  }
-  margin-bottom: 80px;
-  .bg-cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    padding-bottom: 60px;
   }
 }
 
-.about__body {
+.about__marker,
+.about__marker02 {
+  position: relative;
+  left: -3px;
+  padding: 0 3px 3px;
+  background-image: linear-gradient(#fffb32, #fffb32);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 12px;
+  transition: all .5s ease;
+  @media (max-width: $device-breakpoint) {
+    background-size: 100% 12px;
+  }
+}
+
+.about__marker02 {
+  transition-delay: .5s;
+}
+
+.about__header {
   padding-bottom: 80px;
-  .about__me__text {
-    line-height: 28px;
+  @media (max-width: $device-breakpoint) {
+    padding-bottom: 40px;
+  }
+  h1 {
+    font-size: 82px;
+    font-family: 'Minimo';
+    line-height: 96px;
+    font-weight: 700;
+    color: $primary-color;
+    padding-bottom: 40px;
     @media (max-width: $device-breakpoint) {
-      margin-bottom: 30px;
+      font-size: 68px;
+      line-height: 84px;
     }
   }
-  .about__list__benefit {
-    p {
-      word-break: keep-all;
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    color: $black;
+    //&:hover {
+    //  .about__marker {
+    //    background-size: 100% 12px;
+    //  }
+    //  .about__marker02 {
+    //    background-size: 100% 12px;
+    //  }
+    //}
+  }
+}
+
+.about__values {
+  padding-bottom: 120px;
+  @media (max-width: $device-breakpoint) {
+    padding-bottom: 60px;
+  }
+  h2 {
+    font-size: 28px;
+    color: $primary-color;
+  }
+  .values__ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0;
+    margin-top: 30px;
+    @media (max-width: $device-breakpoint) {
+      display: block;
+      margin-top: 0;
     }
-    span {
-      font-weight: $font-semi-bold;
+    li {
+      display: inline-block;
+      @media (max-width: $device-breakpoint) {
+        width: 50%;
+        margin-bottom: 24px;
+        &:nth-last-child(1),
+        &:nth-last-child(2) {
+          margin-bottom: 0;
+        }
+      }
+      h3 {
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        height: 240px;
+        color: $black;
+        border: 7px solid $black;
+        border-radius: 50%;
+        @media (max-width: $device-breakpoint) {
+          width: 150px;
+          height: 150px;
+          margin: 0 auto;
+          font-size: 18px;
+          border-width: 4px;
+        }
+      }
+    }
+  }
+}
+
+.about__skills {
+  h2 {
+    font-size: 28px;
+    color: $primary-color;
+  }
+  .skills__ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    @media (max-width: $device-breakpoint) {
+      margin-top: 40px;
+    }
+    li {
+      flex-basis: 16.666666%;
+      text-align:center;
+      @media (max-width: $device-breakpoint) {
+        flex-basis: 50%;
+        margin-bottom: 40px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:nth-last-child(2) {
+          margin-bottom: 0;
+        }
+      }
+      i {
+        font-size: 32px;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: $font-regular;
+        margin-top: 6px;
+        margin-bottom: 12px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      i, h3, p {
+        transition: 0.3s;
+      }
+      &:hover {
+        i, h3, p {
+          color: $primary-color;
+        }
+      }
     }
   }
 }
@@ -68,48 +191,10 @@
   }
 }
 
-.about__intro {
-  h3 {
-    font-size: 22px;
-    margin-bottom: 16px;
-  }
-  .row {
-    margin-bottom: 60px;
-    &:last-child {
-      margin-bottom: 0;
-    }
-    @media (max-width: $device-breakpoint) {
-      margin-bottom: 30px;
-    }
-  }
-}
-.about__me,
-.about__education,
-.about__benefit {
-  margin-bottom: 30px;
-}
-
-.about__career {
-  @media (max-width: $device-breakpoint) {
-    margin-bottom: 30px;
-  }
-}
-
-.about__period-list {
-  @media (max-width: $device-breakpoint) {
-    margin-bottom: 10px;
-  }
-}
-
-.about__period {
-  @media (max-width: $device-breakpoint) {
-    display: block;
-  }
-}
-
 .about__client {
-  h3 {
+  h2 {
     font-size: 22px;
+    color: $primary-color;
     margin-bottom: 16px;
   }
   ul {
@@ -138,7 +223,7 @@
         background-size: 150px !important;
         transition: 0.2s;
         &:hover {
-          background: #efefef;
+          background: #fff;
           filter: grayscale(0%);
           background-repeat: no-repeat;
           background-position: center;

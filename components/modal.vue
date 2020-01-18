@@ -89,8 +89,8 @@
   }
   .modal-default-button {
     width: 80px;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     border: 1px solid #161616;
     font-size: 14px;
   }

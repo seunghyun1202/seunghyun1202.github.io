@@ -28,7 +28,6 @@
 .workspace__body {
   padding: 160px 0 90px 0;
   min-height: 100vh;
-  background: #fff;
   @media (max-width: $device-breakpoint) {
     padding-top: 120px;
     padding-bottom: 60px;
@@ -44,6 +43,7 @@
   .summary__slogan {
     font-size: 36px;
     font-weight: $font-bold;
+    color: $primary-color;
     @media (max-width: $device-breakpoint) {
       font-size: 30px;
     }
@@ -110,7 +110,18 @@
   font-size: 16px;
   font-weight: $font-bold;
   cursor: pointer;
-  text-decoration: underline;
+  padding: 10px;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  transition: 0.3s;
+  &:hover {
+    background: $primary-color;
+    color: $beige;
+    @media (max-width: $device-breakpoint) {
+      background: #fff;
+      color: $primary-color;
+    }
+  }
 }
 
 .workspace__overview {
@@ -174,11 +185,14 @@
   }
 
   .workspace__btn {
+    a {
+      color: $primary-color;
+    }
     .line {
       width: 0;
       height: 2px;
       margin-top: 6px;
-      background: #161616;
+      background: $primary-color;
       transition: 0.3s;
       @media (max-width: $device-breakpoint) {
         display: none;

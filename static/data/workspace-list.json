@@ -6,55 +6,55 @@
     {
       "ctg": ["all", "brand"],
       "id": "2",
-      "workspaceThumbnail": "/portfolio/alleyway/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/alleyway/thumbnail.png",
       "workspaceName": "앨리웨이"
     },
     {
       "ctg": ["all", "brand"],
       "id": "1",
-      "workspaceThumbnail": "/portfolio/conde/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/conde/thumbnail.png",
       "workspaceName": "코앤드"
     },
     {
       "ctg": ["all", "brand"],
       "id": "5",
-      "workspaceThumbnail": "/portfolio/slingstone/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/slingstone/thumbnail.png",
       "workspaceName": "슬링스톤"
     },
     {
       "ctg": ["all", "e-commerce"],
       "id": "3",
-      "workspaceThumbnail": "/portfolio/boxobliss/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/boxobliss/thumbnail.png",
       "workspaceName": "박스 오블리스"
     },
     {
       "ctg": ["all", "e-commerce"],
       "id": "4",
-      "workspaceThumbnail": "/portfolio/melomeli/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/melomeli/thumbnail.png",
       "workspaceName": "멜로멜리"
     },
     {
       "ctg": ["all", "e-commerce"],
       "id": "6",
-      "workspaceThumbnail": "/portfolio/dmcpy/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/dmcpy/thumbnail.png",
       "workspaceName": "드보르망"
     },
     {
       "ctg": ["all", "brand", "promotion"],
       "id": "7",
-      "workspaceThumbnail": "/portfolio/fooddeuk/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/fooddeuk/thumbnail.png",
       "workspaceName": "푸드득"
     },
     {
       "ctg": ["all", "promotion"],
       "id": "8",
-      "workspaceThumbnail": "/portfolio/munmu/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/munmu/thumbnail.png",
       "workspaceName": "포니야 부탁해"
     },
     {
       "ctg": ["all", "brand", "promotion"],
       "id": "9",
-      "workspaceThumbnail": "/portfolio/globing/thumbnail.jpg",
+      "workspaceThumbnail": "/portfolio/globing/thumbnail.png",
       "workspaceName": "글로빙"
     }
   ]

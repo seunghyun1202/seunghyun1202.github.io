@@ -3,45 +3,19 @@
     <section class="main-visual">
       <div v-swiper:mySwiperMainVisual="swiperOptionMainVisual">
         <div class="swiper-wrapper">
-          <!-- Numbering 01 -->
-          <div class="swiper-slide swiper-slide01">
-            <div class="main-visual__bg"></div>
+          <template v-for="(list, index) in slideList">
+            <div class="swiper-slide" :key="index">
             <div class="main-visual__wording">
               <h2>
                 <nuxt-link
-                  to="/workspace"
-                  class="main-visual__text fira-title"
-                >Workspace</nuxt-link>
+                  :to="list.link"
+                  class="main-visual__text"
+                >{{list.title}}</nuxt-link>
               </h2>
-              <p class="main-visual__info">피벗의 작업 공간을 보실 수 있습니다.</p>
+              <p class="main-visual__info">{{list.desc}}</p>
             </div>
           </div>
-          <!-- Numbering 02 -->
-          <div class="swiper-slide swiper-slide02">
-            <div class="main-visual__bg"></div>
-            <div class="main-visual__wording position-center">
-              <h2>
-                <nuxt-link
-                  to="/service"
-                  class="main-visual__text fira-title"
-                >Service</nuxt-link>
-              </h2>
-              <p class="main-visual__info">피벗이 제공하는 서비스를 보실 수 있습니다.</p>
-            </div>
-          </div>
-          <!-- Numbering 03 -->
-          <div class="swiper-slide swiper-slide03">
-            <div class="main-visual__bg"></div>
-            <div class="main-visual__wording position-center">
-              <h2>
-                <nuxt-link
-                  to="/about"
-                  class="main-visual__text fira-title"
-                >About</nuxt-link>
-              </h2>
-              <p class="main-visual__info">피벗에 대해 소개합니다.</p>
-            </div>
-          </div>
+          </template>
         </div>
         <!-- 페이지네이션 -->
         <div class="swiper-pagination"></div>
@@ -57,7 +31,23 @@
   export default {
     data () {
       return {
-        test: '',
+        slideList: [
+          {
+            title: 'workspace',
+            link: '/workspace',
+            desc: '피벗의 작업공간입니다.'
+          },
+          {
+            title: 'service',
+            link: '/service',
+            desc: '피벗이 제공하는 서비스입니다.'
+          },
+          {
+            title: 'about',
+            link: '/about',
+            desc: '피벗에 대해 소개합니다.'
+          }
+        ],
         swiperOptionMainVisual: {
           loop: true,
           mousewheel: true,
