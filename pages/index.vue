@@ -5,8 +5,8 @@
 <script>
   export default {
     async asyncData ({ redirect }) {
-      //redirect('/home')
-      redirect('/ready')
+      redirect('/home')
+      // redirect('/ready')
     }
   }
 </script>

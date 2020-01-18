@@ -41,8 +41,13 @@
 }
 
 .main-visual__info {
+  padding-top: 20px;
   font-size: 16px;
   color: $primary-color;
+  @media (max-width: $device-breakpoint) {
+    padding-top: 12px;
+    font-size: 14px;
+  }
 }
 
 .main-visual__wording {
@@ -62,10 +67,6 @@
   color: $primary-color;
   transition: 0.3s;
   @media (max-width: $device-breakpoint) {
-    font-size: 32px;
+    font-size: 48px;
   }
-}
-
-.main-visual__info {
-  padding-top: 20px;
 }
