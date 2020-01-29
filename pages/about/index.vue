@@ -26,26 +26,26 @@
               </template>
             </ul>
           </div>
-          <div class="about__skills">
-            <h2>pivot skills</h2>
-            <ul class="skills__ul">
-              <template v-for="(list, index) in skillList">
-                <li :key="index">
-                  <div class="">
-                    <header>
-                      <i :class="list.class"></i>
-                    </header>
-                    <div class="">
-                      <h3>
-                        {{list.name}}
-                      </h3>
-                      <p v-html="list.desc"></p>
-                    </div>
-                  </div>
-                </li>
-              </template>
-            </ul>
-          </div>
+<!--          <div class="about__skills">-->
+<!--            <h2>pivot skills</h2>-->
+<!--            <ul class="skills__ul">-->
+<!--              <template v-for="(list, index) in skillList">-->
+<!--                <li :key="index">-->
+<!--                  <div class="">-->
+<!--                    <header>-->
+<!--                      <i :class="list.class"></i>-->
+<!--                    </header>-->
+<!--                    <div class="">-->
+<!--                      <h3>-->
+<!--                        {{list.name}}-->
+<!--                      </h3>-->
+<!--                      <p v-html="list.desc"></p>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--              </template>-->
+<!--            </ul>-->
+<!--          </div>-->
           <!-- 프로젝트 -->
           <!-- div class="about__project">
             <h3>External Project</h3>

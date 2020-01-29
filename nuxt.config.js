@@ -12,7 +12,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'pivot web studioF' },
+      { hid: 'description', name: 'description', content: 'pivot web studio' },
       { property: 'og:title', content: 'pivot' },
       { property: 'og:description', content: 'pivot web studio' },
       { property: 'og:image', content: 'https://seunghyun1202.github.io/og.jpg' },
